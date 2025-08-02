@@ -11,6 +11,12 @@ All changes are tracked, committed, and pushed to ensure safe, consistent cross-
 
 ### ✅ Starting Your Work (any device)
 ```bash
-cd portweb
-git pull
-code .
+cd portweb # chance to target directory
+git pull # pull newest changed
+code . # open directory in vscode
+
+. coding 
+
+git add . # add all changed file
+git commit -m "add git.md" # commit with description
+git push # push git 
