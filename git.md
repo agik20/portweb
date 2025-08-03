@@ -20,3 +20,5 @@ code . # open directory in vscode
 git add . # add all changed file
 git commit -m "add git.md" # commit with description
 git push # push git 
+
+npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch

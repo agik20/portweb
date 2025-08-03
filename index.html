@@ -13,7 +13,7 @@
       <div class="container">
         <div class="flex items-center justify-between relative">
           <div class="px-4">
-            <a href="#home" class="font-bold text-l text-primary block py-6">ArdutraAgi</a>
+            <a href="#home" class="font-bold text-l text-primary block py-6">Portfolio</a>
           </div>
           <div class="flex items-center px-4">
             <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
@@ -130,26 +130,26 @@
           <div class="max-w-xl mx-auto text-center mb-16">
             <h4 class="font-semibold text-lg text-primary mb-2">Portfolio</h4>
             <h2 class="font-bold text-dark text-3xl mb-4">Recently Project</h2>
-            <p class="font-medium text-md text-secondary">I’ve recently developed a real-time cheating detection system using YOLOv8 for object and pose estimation, enhanced with ByteTrack for tracking suspicious behaviors like phone use or material exchange during exams. The system features an automated pipeline—handling frame extraction, preprocessing (CLAHE, super-resolution), auto-annotation, and validation—resulting in clean training data. I deployed it on Jetson Orin Nano with TensorRT optimization, integrated live monitoring via MariaDB and a XAMPP-based dashboard, and added smart logic to filter redundant detections. It’s a full-stack, edge-AI solution I designed end-to-end.</p>
+            <p class="font-medium text-md text-secondary">I’ve recently developed a real-time cheating detection system using YOLOv8 for object and pose estimation, enhanced with ByteTrack for tracking suspicious behaviors like phone use or material exchange during exams. The system features an automated pipeline—handling frame extraction, preprocessing (CLAHE, super resolution), auto-annotation, and validation resulting in clean training data. I deployed it on Jetson Orin Nano with TensorRT optimization, integrated live monitoring via MariaDB and a XAMPP based dashboard, and added smart logic to filter redundant detections. It’s a full-stack, edge-AI solution I designed end-to-end.</p>
           </div>
         </div>
 
         <div class="w-full px-4 flex flex-wrap justify-center xl:-10/12 xl:mx-auto">
-          <div class="mb-12 p-4 md:w-1/2">
+          <div class="mb-12 p-4 lg:w-1/2 xl:w-1/3">
             <div class="rounded-md shadow-md overflow-hidden">
               <img src="dist/img/portfolio/4.1.1.drawio.png" alt="Architecture" width="w-full"/>
             </div>
             <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Architecture Design</h3>
-            <p class="font-medium text-base text-secondary">Built for edge deployment, the system architecture runs on a Jetson-based ReComputer J30 that captures high-resolution frames, processes them through advanced pose and object detection models, and applies smart post-processing logic to extract meaningful evidence. Cropped results are automatically sent to a server, where they're logged into a database and displayed through a live web interface. This end-to-end system is designed for efficiency, automation, and transparency—making it an ideal solution for institutions seeking to enhance exam integrity with minimal manual supervision.</p>
+            <p class="font-medium text-base text-secondary">Built for edge deployment, the system architecture runs on a Jetson-based ReComputer J30 that captures high-resolution frames, processes them through advanced pose and object detection models, and applies smart post-processing logic to extract meaningful evidence. Cropped results are automatically sent to a server, where they're logged into a database and displayed through a live web interface. This end-to-end system is designed for efficiency, automation, and transparency making it an ideal solution for institutions seeking to enhance exam integrity with minimal manual supervision.</p>
           </div>
-          <div class="mb-12 p-4 md:w-1/2">
+          <div class="mb-12 p-4 lg:w-1/2 xl:w-1/3">
             <div class="rounded-md shadow-md overflow-hidden">
               <img src="dist/img/portfolio/Screenshot from 2025-07-13 10-01-23.png" alt="Datasets" width="w-full"/>
             </div>
             <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Datasets Preprocessing</h3>
             <p class="font-medium text-base text-secondary">This system offers an intelligent solution for monitoring exam environments by combining real-time human pose estimation and object detection. Powered by a custom dataset, it accurately identifies behaviors and objects commonly associated with cheating—such as suspicious postures or the presence of smartphones and calculators. The image samples demonstrate the system’s ability to capture both contextual human movement and detailed object appearances, enabling precise activity classification.</p>
           </div>
-          <div class="mb-12 p-4 md:w-1/2">
+          <div class="mb-12 p-4 lg:w-1/2 xl:w-1/3">
             <div class="rounded-md shadow-md overflow-hidden">
               <img src="dist/img/portfolio/annotated_frame_8850_150823.jpg" alt="Detection" width="w-full"/>
             </div>
@@ -189,15 +189,100 @@
             <a href="#" class="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
               <img src="dist/img/clients/motul-logo-2.svg" alt="Motul"/>
             </a>
+            <a href="#" class="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
+              <img src="dist/img/clients/abb-logo.svg" alt="ABB"/>
+            </a>
           </div>
         </div>
       </div>
     </section>
     <!-- Client Section End -->
 
-    <!-- Blog Section Start -->
+    <!-- Certification Section Start -->
+    <section id="blog" class="pt-36 pb-32 bg-slate-100">
+      <div class="container">
+        <div class="w-full px-4">
+          <div class="max-w-xl mx-auto text-center mb-16">
+            <h4 class="font-semibold text-lg text-primary mb-2">Certification</h4>
+            <h2 class="font-bold text-dark text-3xl mb-4 sm:text-4xl lg:text-5xl">Recently Training</h2>
+            <p class="font-medium text-md text-secondary md:text-lg">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut iste voluptas enim ab.</p>
+          </div>
+        </div> 
 
-    <!-- Blog Section End -->
+        <div class="flex flex-wrap">
+          <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+            <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
+              <img src="dist/img/certification/Zürich_-_Oerlikon_-_Nord_2010-08-07_16-30-08.jpeg" alt="plc" class="w-full">
+              <div class="py-8 px-6">
+                <h3 class="text-dark">
+                  <a href="#" class="block mb-3 font-semibold text-xl hover:text-primary truncate">ABB Industrial Drive Training Participant</a>
+                </h3>
+                <p class="font-medium text-secondary text-base mb-6">I completed hands-on training on ABB's industrial drive systems, including the ACS580 and ACS880 series. The program covered practical operation, parameter configuration, diagnostics, and real-world applications of variable speed drives (VSDs) in industrial settings. This experience strengthened my skills in motor control systems, automation, and industrial instrumentation building a strong foundation for working with advanced electrical drive technologies.</p>
+                <a href="#" class="font-medium text-s text-white bg-primary py-3 px-6 rounded-lg hover:opacity-80">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+            <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
+              <img src="dist/img/certification/ppsdm_migas_cover.jpeg" alt="deep-learing" class="w-full">
+              <div class="py-8 px-6">
+                <h3 class="text-dark">
+                  <a href="#" class="block mb-3 font-semibold text-xl hover:text-primary truncate">PPSDM Migas Instrumentation Internship</a>
+                </h3>
+                <p class="font-medium text-secondary text-base mb-6">Designed and simulated a cascade control system to regulate furnace temperature using Yokogawa CENTUM VP Distributed Control System (DCS). Focused on critical parameter tuning to ensure precise calibration, system stability, and optimized response. Developed a robust PID-based control architecture and validated its performance through simulation, achieving a fully functional and efficient system within one month.</p>
+                <a href="#" class="font-medium text-s text-white bg-primary py-3 px-6 rounded-lg hover:opacity-80">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+            <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
+              <img src="dist/img/certification/EuropaPress_4622889_filed_02_june_2022_saxony_leipzig_view_of_the_leipzig_siemens_plant_for.jpg" alt="deep-learing" class="w-full">
+              <div class="py-8 px-6">
+                <h3 class="text-dark">
+                  <a href="#" class="block mb-3 font-semibold text-xl hover:text-primary truncate">Programing Logic Controller Training Partisipant</a>
+                </h3>
+                <p class="font-medium text-secondary text-base mb-6">I took part in a practical training program focused on PLC fundamentals, including ladder logic programming, input/output configuration, and real-time system control. The training emphasized industrial automation workflows, sensor-actuator integration, and troubleshooting techniques using standard PLC platforms. This experience enhanced my ability to design, simulate, and implement automated control systems in industrial environments.</p>
+                <a href="#" class="font-medium text-s text-white bg-primary py-3 px-6 rounded-lg hover:opacity-80">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Certification Section End -->
+
+    <!-- Contact Section Start -->
+    <section id="contact" class="pt-36 pb-32">
+      <div class="container">
+        <div class="w-full px-4">
+          <div class="max-w-xl mx-auto text-center mb-16">
+            <h4 class="font-semibold text-lg text-primary mb-2">Contact Me</h4>
+            <h2 class="font-bold text-white text-3xl mb-4 sm:text-4xl lg:text-5xl">For Companies Looking to Get in Touch</h2>
+            <p class="font-medium text-md text-secondary md:text-lg">If you represent a company or organization interested in collaboration, hiring opportunities, or discussing potential roles aligned with my expertise, feel free to reach out. I’m open to challenging projects and professional opportunities that match my background in engineering, AI, and system development. I value clarity, innovation, and impactful work and I look forward to meaningful conversations.</p>
+          </div>
+        </div>
+
+        <form>
+          <div class="w-full mb-8 px-4">
+            <label for="name" class="text-base text-primary font-bold">Nama</label>
+            <input type="text" id="name" class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-1 focus:ring-primary focus:border-primary"/>
+          </div>
+          <div class="w-full mb-8 px-4">
+            <label for="email" class="text-base text-primary font-bold">Email</label>
+            <input type="text" id="email" class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-1 focus:ring-primary focus:border-primary"/>
+          </div>
+          <div class="w-full mb-8 px-4">
+            <label for="message" class="text-base text-primary font-bold">Message</label>
+            <textarea type="text" id="message" class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-1 focus:ring-primary focus:border-primary h-32"></textarea>
+          </div>
+          <div class="w-full px-4">
+            <button class="text-base font-semibold text-dark bg-primary rounded-full py-3 px-8">Send</button>
+          </div>
+        </form>
+        </div>
+      </div>
+    </section>
+    <!-- Contact Section End -->
     <script src="dist/js/script.js"></script>
     </body>
 </body>
