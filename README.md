@@ -196,12 +196,6 @@ Any static host works. Two quick options:
 
 ---
 
-## License
-
-MIT — see `LICENSE` for details.
-
----
-
 ## Notes
 
 * Keep assets small and lazy‑load heavy images.
