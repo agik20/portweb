@@ -16,6 +16,10 @@ module.exports = {
       screens: {
         '2xl': '1320px',
       },
+      fontFamily: {
+        poppins: ['Poppins', 'sans-serif'],
+        tenor: ['Tenor Sans', 'sans-serif'],
+      },
     },
   },
   plugins: [],
