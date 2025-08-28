@@ -1076,6 +1076,11 @@ body{
   line-height: 1.625;
 }
 
+.text-cokl{
+  --tw-text-opacity: 1;
+  color: rgb(116 88 80 / var(--tw-text-opacity, 1));
+}
+
 .text-dark{
   --tw-text-opacity: 1;
   color: rgb(12 12 12 / var(--tw-text-opacity, 1));
@@ -1109,11 +1114,6 @@ body{
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
-}
-
-.text-cokl{
-  --tw-text-opacity: 1;
-  color: rgb(116 88 80 / var(--tw-text-opacity, 1));
 }
 
 .shadow-lg{
@@ -1245,6 +1245,10 @@ body{
 @media (min-width: 768px){
   .md\:w-1\/2{
     width: 50%;
+  }
+
+  .md\:w-1\/5{
+    width: 20%;
   }
 
   .md\:text-lg{
