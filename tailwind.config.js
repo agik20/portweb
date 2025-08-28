@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["index.html"],
+  content: ["index.html", "certif.html"], 
   theme: {
       container: {
         center: true, 
@@ -12,6 +12,7 @@ module.exports = {
         secondary: '#333740',
         dark: '#0C0C0C',
         abu: '#333740',
+        cokl: '#745850'
       },
       screens: {
         '2xl': '1320px',
