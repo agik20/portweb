@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 128 128">
+  <title>seaborn - minimalist icon (black)</title>
+  <rect x="8" y="8" width="112" height="112" rx="12" ry="12" fill="none" stroke="#000" stroke-width="6"/>
+  <!-- stylized density waves -->
+  <path d="M16 92 Q 28 70, 40 74 T 64 76 T 88 66 T 112 72"
+        fill="none" stroke="#000" stroke-width="5" stroke-linecap="round"/>
+  <path d="M16 100 Q 32 84, 48 86 T 80 90 T 112 82"
+        fill="none" stroke="#000" stroke-width="5" stroke-linecap="round" opacity="0.85"/>
+  <path d="M16 84 Q 26 60, 40 62 T 64 60 T 92 52 T 112 60"
+        fill="none" stroke="#000" stroke-width="5" stroke-linecap="round" opacity="0.7"/>
+  <!-- small bars to nod at 'statistical' vibe -->
+  <rect x="24" y="44" width="6" height="10" fill="#000" rx="1"/>
+  <rect x="36" y="38" width="6" height="16" fill="#000" rx="1"/>
+  <rect x="48" y="40" width="6" height="14" fill="#000" rx="1"/>
+</svg>
